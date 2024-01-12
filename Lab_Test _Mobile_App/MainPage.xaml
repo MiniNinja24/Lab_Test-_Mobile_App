@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab_Test__Mobile_App.MainPage">
+
+    <VerticalStackLayout>
+
+        <!--Q1-->
+        <Frame HeightRequest="60" WidthRequest="60" HasShadow="True"
+        BackgroundColor="{StaticResource Primary}" Padding="0" CornerRadius="45">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnFrame1Tapped"/>
+            </Frame.GestureRecognizers>
+            <VerticalStackLayout VerticalOptions="Center">
+                <Label Text="Q1" FontSize="13" FontAttributes="Bold"
+                HorizontalOptions="Center"/>
+            </VerticalStackLayout>
+        </Frame>
+
+        <!--Q2-->
+        <Frame HeightRequest="60" WidthRequest="60" HasShadow="True"
+        BackgroundColor="{StaticResource Primary}" Padding="0" CornerRadius="45">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnFrame2Tapped"/>
+            </Frame.GestureRecognizers>
+            <VerticalStackLayout VerticalOptions="Center">
+                <Label Text="Q2" FontSize="13" FontAttributes="Bold"
+                HorizontalOptions="Center"/>
+            </VerticalStackLayout>
+        </Frame>
+
+        <!--Q3-->
+        <Frame HeightRequest="60" WidthRequest="60" HasShadow="True"
+        BackgroundColor="{StaticResource Primary}" Padding="0" CornerRadius="45">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnFrame3Tapped"/>
+            </Frame.GestureRecognizers>
+            <VerticalStackLayout VerticalOptions="Center">
+                <Label Text="Q3" FontSize="13" FontAttributes="Bold"
+                HorizontalOptions="Center"/>
+            </VerticalStackLayout>
+        </Frame>
+
+    </VerticalStackLayout>
+
+
+</ContentPage>
